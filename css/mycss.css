@@ -1,0 +1,190 @@
+html, body,
+ul, ol, li,
+h1, h2, h3, h4, h5, h6, p, div {
+  margin: 0;
+  padding: 0;
+}
+
+li{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+body{
+    font-family: 'Times New Roman', Times, serif;
+}
+
+*{
+    box-sizing: border-box;
+}
+
+header{
+    width: 100%;
+    height: 50px;
+    background-color: rgba(0,0,0, 0.8);
+    top: 0;
+    left: 0;
+    z-index: 10;
+    position: fixed;
+}
+
+.header-left{
+    float: left;
+}
+
+.searchbar{
+    margin-left: 25%;
+    padding: 5px 15px;
+    border-radius: 25px;
+    background-color: rgba(255,235,205 , 1 );
+    margin-top: 10px;
+    width: 200px;
+    font-family: 'Helvetica', FontAwesome, sans-serif;
+
+}
+
+
+.logo{
+    margin-top: 7px;
+    color: blanchedalmond;
+    font-size: 30px;
+    margin-left: 25px;
+    font-family: monospace;
+}
+
+.header-right{
+    float: right;
+    background-color: rgba(255,255,255, 0);
+}
+
+.header-right li{
+    display: inline-block;
+    margin-right: 25px;
+    padding: 15px 0;
+    cursor: pointer;
+}
+
+.header-right a{
+    color: blanchedalmond;
+    padding: 0 20px;
+}
+
+.header-right li:hover{
+    background-color: rgba(255,255,255, 0.3);
+}
+
+.container{
+    width: 100%;
+}
+
+.top-wrapper{
+    background-image: url("../assets/schoolbanner.jpg");
+}
+
+.gradient-color-header{
+    background-image: linear-gradient(to left, rgba(255,235,205 ,0 ), rgba(0,0,0,1) );
+    padding: 50px 0px 50px 0px;
+}
+
+.txt-header{
+    padding: 100px 25px 100px 25px;
+    color: rgba(255,235,205 ,1 );
+}
+
+.txt-header h1{
+    font-size: 50px;
+    line-height: 60px;
+    letter-spacing: 5px;
+    margin-bottom: 25px;
+}
+
+.txt-header p{
+    font-size: 20px;
+    letter-spacing: 3px;
+}
+
+.btn{
+    padding: 12px 25px;
+    color: black;
+    border-radius: 20px;
+    display: inline-block;
+}
+
+.btn-wrapper{
+    margin-top: 25px;
+}
+
+.btn-school{
+    background-color: rgba(255,235,205 ,1 );
+    margin-right: 15px;
+}
+
+.btn-school:hover{
+    background-color: rgba(255,235,205 ,0.8 );
+}
+
+.icon{
+    float: right;
+    color: rgba(255,235,205 , 1 );
+    padding: 17px 25px;
+    display: none !important;
+}
+
+/* About Us */
+.about-us {
+    padding: 20px;
+    display: inline-block;
+    background-color: white;
+    text-align: left;
+}
+
+.about-us h1 {
+    text-align: center;
+    margin: 20px 0px 50px 0px;
+    font-size: 40px;
+}
+
+.image-about{
+    width: 40%;
+    float: left;
+    margin-right: 10px;
+}
+.about-content{
+    float: right;
+    width: 40%;
+    margin-top: 100px;
+}
+
+.about-content h2{
+    margin-bottom: 10px;
+    font-size: 35px;
+}
+
+.about-content h3 {
+    font-size: 27px;
+    margin-bottom: 20px;
+}
+
+.about-content p{
+    line-height: 30px;
+}
+
+.btn-learn {
+    background-color: #44c048;
+    border-radius: 5px;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+.btn-learn:hover {
+    background-color: #238823;
+    transition: 0.9s;
+}
